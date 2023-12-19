@@ -2,7 +2,7 @@
 #include "hello.h"
 
 //comment 
-
+//tested
 void hello() {
   int x = 10;
   int y = 0;
