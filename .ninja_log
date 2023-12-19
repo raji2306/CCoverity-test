@@ -1,0 +1,4 @@
+# ninja log v5
+31	229	7224532948670027	CMakeFiles/greet.dir/main.cpp.obj	89dd998cea3d9c66
+10	456	7224532950966688	CMakeFiles/hello.dir/hello.cpp.obj	2c559592c91c36f8
+462	1544	7224532961820482	lib/libhello.a	8e88fde434a58300

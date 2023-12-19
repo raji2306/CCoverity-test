@@ -1,0 +1,3 @@
+Native Compiler and extra args: ./ 
+Working directory: C:\Users\rsures8x\OneDrive - Intel Corporation\Desktop\c\hello
+Comptype: gcc

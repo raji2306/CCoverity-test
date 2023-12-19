@@ -1,0 +1,173 @@
+1701290088.824: DM started: dm_pid=5156
+1701290088.824: DM command line: C:/Program Files/Coverity/Coverity Static Analysis/bin/cov-internal-dm.exe --AM-port 57738 --log-file C:/Users/rsures8x/OneDrive - Intel Corporation/Desktop/c/hello/idir/output/distributor.log -j 8 --AW-timeout 36000 C:\Program Files\Coverity\Coverity Static Analysis\bin\cov-analyze.exe --worker --message-size-limit 104857600
+1701290088.824: Connecting to AM at 127.0.0.1:57738
+1701290088.824: Connected to AM: (local) 127.0.0.1:57739 - 127.0.0.1:57738 (remote)
+1701290088.824: Listening for DWs at 127.0.0.1:57740
+1701290088.824: Setting up for 8 local workers and 0 remote workers.
+1701290088.840: Starting DW 1 with command line: C:/Program Files/Coverity/Coverity Static Analysis/bin/cov-internal-dw.exe --DM-port 57740 --DW-id 1
+1701290089.121: DW 1 started: dw_pid=12316
+1701290089.121: Starting DW 2 with command line: C:/Program Files/Coverity/Coverity Static Analysis/bin/cov-internal-dw.exe --DM-port 57740 --DW-id 2
+1701290089.137: DW 2 started: dw_pid=3292
+1701290089.137: Starting DW 3 with command line: C:/Program Files/Coverity/Coverity Static Analysis/bin/cov-internal-dw.exe --DM-port 57740 --DW-id 3
+1701290089.152: DW 3 started: dw_pid=15124
+1701290089.152: Starting DW 4 with command line: C:/Program Files/Coverity/Coverity Static Analysis/bin/cov-internal-dw.exe --DM-port 57740 --DW-id 4
+1701290089.184: DW 4 started: dw_pid=3144
+1701290089.184: Starting DW 5 with command line: C:/Program Files/Coverity/Coverity Static Analysis/bin/cov-internal-dw.exe --DM-port 57740 --DW-id 5
+1701290089.199: DW 5 started: dw_pid=23340
+1701290089.199: Starting DW 6 with command line: C:/Program Files/Coverity/Coverity Static Analysis/bin/cov-internal-dw.exe --DM-port 57740 --DW-id 6
+1701290089.215: DW 6 started: dw_pid=9444
+1701290089.215: Starting DW 7 with command line: C:/Program Files/Coverity/Coverity Static Analysis/bin/cov-internal-dw.exe --DM-port 57740 --DW-id 7
+1701290089.231: DW 7 started: dw_pid=12304
+1701290089.231: Starting DW 8 with command line: C:/Program Files/Coverity/Coverity Static Analysis/bin/cov-internal-dw.exe --DM-port 57740 --DW-id 8
+1701290089.231: DW 8 started: dw_pid=11140
+1701290089.231: DW 1 log: 1701290089.198: Connecting to DM on 127.0.0.1:57740
+1701290089.231: DW 1 log: 1701290089.198: Connected to the DM: (local) 127.0.0.1:57743 - 127.0.0.1:57740 (remote)
+1701290089.231: DW 1 log: 1701290089.198: Sending DWDM_INIT: dw_id=1, benchmark=0
+1701290089.231: DW 2 log: 1701290089.205: Connecting to DM on 127.0.0.1:57740
+1701290089.231: DW 2 log: 1701290089.205: Connected to the DM: (local) 127.0.0.1:57744 - 127.0.0.1:57740 (remote)
+1701290089.231: DW 2 log: 1701290089.205: Sending DWDM_INIT: dw_id=2, benchmark=0
+1701290089.231: DW 3 log: 1701290089.223: Connecting to DM on 127.0.0.1:57740
+1701290089.231: DW 3 log: 1701290089.223: Connected to the DM: (local) 127.0.0.1:57745 - 127.0.0.1:57740 (remote)
+1701290089.231: DW 3 log: 1701290089.223: Sending DWDM_INIT: dw_id=3, benchmark=0
+1701290089.231: DW 4 log: 1701290089.241: Connecting to DM on 127.0.0.1:57740
+1701290089.231: Received a connection from a DW: 127.0.0.1:57743
+1701290089.231: AM closed the connection, DM shutting down
+1701290089.231: Looking at connection with AM disconnected
+1701290089.231: Received a connection from a DW: 127.0.0.1:57744
+1701290089.231: Looking at connection with AM disconnected
+1701290089.231: Disconnecting uninitialized connection
+1701290089.231: Looking at connection with AM disconnected
+1701290089.231: DW 1 log: 1701290089.230: DW 1: the DM closed the connection before DMDW_INIT received
+1701290089.231: Received a connection from a DW: 127.0.0.1:57745
+1701290089.231: Looking at connection with AM disconnected
+1701290089.231: Disconnecting uninitialized connection
+1701290089.231: Looking at connection with AM disconnected
+1701290089.231: Disconnecting uninitialized connection
+1701290089.231: Looking at connection with AM disconnected
+1701290089.231: DW 2 log: 1701290089.221: DW 2: the DM closed the connection before DMDW_INIT received
+1701290089.231: Looking at connection with AM disconnected
+1701290089.231: Disconnecting uninitialized connection
+1701290089.231: Looking at connection with AM disconnected
+1701290089.231: Disconnecting uninitialized connection
+1701290089.231: Looking at connection with AM disconnected
+1701290089.231: Disconnecting uninitialized connection
+1701290089.231: DW 3 log: 1701290089.223: DW 3: the DM closed the connection before DMDW_INIT received
+1701290089.231: Looking at connection with AM disconnected
+1701290089.231: Disconnecting uninitialized connection
+1701290089.231: Looking at connection with AM disconnected
+1701290089.231: Disconnecting uninitialized connection
+1701290089.231: Looking at connection with AM disconnected
+1701290089.231: Disconnecting uninitialized connection
+1701290089.231: Received a connection from a DW: 127.0.0.1:57746
+1701290089.231: Looking at connection with AM disconnected
+1701290089.262: Disconnecting uninitialized connection
+1701290089.262: Looking at connection with AM disconnected
+1701290089.262: Disconnecting uninitialized connection
+1701290089.262: Looking at connection with AM disconnected
+1701290089.262: Disconnecting uninitialized connection
+1701290089.262: Looking at connection with AM disconnected
+1701290089.262: DW 4 log: 1701290089.241: Connected to the DM: (local) 127.0.0.1:57746 - 127.0.0.1:57740 (remote)
+1701290089.262: Looking at connection with AM disconnected
+1701290089.262: Disconnecting uninitialized connection
+1701290089.262: Looking at connection with AM disconnected
+1701290089.262: Disconnecting uninitialized connection
+1701290089.262: Looking at connection with AM disconnected
+1701290089.262: Disconnecting uninitialized connection
+1701290089.262: Looking at connection with AM disconnected
+1701290089.262: Disconnecting uninitialized connection
+1701290089.262: DW 4 log: 1701290089.241: Sending DWDM_INIT: dw_id=4, benchmark=0
+1701290089.262: DW 4 log: 1701290089.257: DW 4: the DM closed the connection before DMDW_INIT received
+1701290089.262: Looking at connection with AM disconnected
+1701290089.262: Disconnecting uninitialized connection
+1701290089.262: Looking at connection with AM disconnected
+1701290089.262: Disconnecting uninitialized connection
+1701290089.262: Looking at connection with AM disconnected
+1701290089.262: Disconnecting uninitialized connection
+1701290089.262: Looking at connection with AM disconnected
+1701290089.262: Disconnecting uninitialized connection
+1701290089.324: DW 5 log: 1701290089.285: Connecting to DM on 127.0.0.1:57740
+1701290089.324: DW 6 log: 1701290089.274: Connecting to DM on 127.0.0.1:57740
+1701290089.324: DW 7 log: 1701290089.286: Connecting to DM on 127.0.0.1:57740
+1701290089.324: DW 8 log: 1701290089.300: Connecting to DM on 127.0.0.1:57740
+1701290089.324: Received a connection from a DW: 127.0.0.1:57747
+1701290089.324: DW 1 exited before connecting
+1701290089.324: DW 1 exited with code 0
+1701290089.324: DW 2 exited before connecting
+1701290089.324: DW 2 exited with code 0
+1701290089.324: DW 3 exited before connecting
+1701290089.324: DW 3 exited with code 0
+1701290089.324: DW 4 exited before connecting
+1701290089.324: DW 4 exited with code 0
+1701290089.324: DW disconnected before initialization
+1701290089.324: DW disconnected before initialization
+1701290089.324: DW disconnected before initialization
+1701290089.324: DW disconnected before initialization
+1701290089.324: Looking at connection with AM disconnected
+1701290089.324: DW 5 log: 1701290089.285: Connected to the DM: (local) 127.0.0.1:57748 - 127.0.0.1:57740 (remote)
+1701290089.324: DW 5 log: 1701290089.285: Sending DWDM_INIT: dw_id=5, benchmark=0
+1701290089.324: DW 6 log: 1701290089.274: Connected to the DM: (local) 127.0.0.1:57747 - 127.0.0.1:57740 (remote)
+1701290089.324: DW 6 log: 1701290089.274: Sending DWDM_INIT: dw_id=6, benchmark=0
+1701290089.324: DW 7 log: 1701290089.286: Connected to the DM: (local) 127.0.0.1:57749 - 127.0.0.1:57740 (remote)
+1701290089.324: DW 7 log: 1701290089.286: Sending DWDM_INIT: dw_id=7, benchmark=0
+1701290089.324: DW 8 log: 1701290089.300: Connected to the DM: (local) 127.0.0.1:57750 - 127.0.0.1:57740 (remote)
+1701290089.324: DW 8 log: 1701290089.300: Sending DWDM_INIT: dw_id=8, benchmark=0
+1701290089.324: Received a connection from a DW: 127.0.0.1:57748
+1701290089.324: Looking at connection with AM disconnected
+1701290089.324: Disconnecting uninitialized connection
+1701290089.324: Looking at connection with AM disconnected
+1701290089.324: DW 6 log: 1701290089.321: DW 6: the DM closed the connection before DMDW_INIT received
+1701290089.324: Received a connection from a DW: 127.0.0.1:57749
+1701290089.324: Looking at connection with AM disconnected
+1701290089.324: Disconnecting uninitialized connection
+1701290089.324: Looking at connection with AM disconnected
+1701290089.324: Disconnecting uninitialized connection
+1701290089.324: Looking at connection with AM disconnected
+1701290089.324: DW 5 log: 1701290089.316: DW 5: the DM closed the connection before DMDW_INIT received
+1701290089.324: Received a connection from a DW: 127.0.0.1:57750
+1701290089.324: Looking at connection with AM disconnected
+1701290089.324: Disconnecting uninitialized connection
+1701290089.324: Looking at connection with AM disconnected
+1701290089.324: Disconnecting uninitialized connection
+1701290089.324: Looking at connection with AM disconnected
+1701290089.324: Disconnecting uninitialized connection
+1701290089.324: Looking at connection with AM disconnected
+1701290089.324: DW 7 log: 1701290089.317: DW 7: the DM closed the connection before DMDW_INIT received
+1701290089.324: Looking at connection with AM disconnected
+1701290089.324: Disconnecting uninitialized connection
+1701290089.324: Looking at connection with AM disconnected
+1701290089.324: Disconnecting uninitialized connection
+1701290089.324: Looking at connection with AM disconnected
+1701290089.324: Disconnecting uninitialized connection
+1701290089.324: Looking at connection with AM disconnected
+1701290089.324: Disconnecting uninitialized connection
+1701290089.324: DW 8 log: 1701290089.315: DW 8: the DM closed the connection before DMDW_INIT received
+1701290089.324: Looking at connection with AM disconnected
+1701290089.324: Disconnecting uninitialized connection
+1701290089.324: Looking at connection with AM disconnected
+1701290089.324: Disconnecting uninitialized connection
+1701290089.324: Looking at connection with AM disconnected
+1701290089.324: Disconnecting uninitialized connection
+1701290089.324: Looking at connection with AM disconnected
+1701290089.324: Disconnecting uninitialized connection
+1701290089.387: DW 5 exited before connecting
+1701290089.387: DW 5 exited with code 0
+1701290089.387: DW 6 exited before connecting
+1701290089.387: DW 6 exited with code 0
+1701290089.387: DW 7 exited before connecting
+1701290089.387: DW 7 exited with code 0
+1701290089.387: DW 8 exited before connecting
+1701290089.387: DW 8 exited with code 0
+1701290089.387: DW disconnected before initialization
+1701290089.387: DW disconnected before initialization
+1701290089.387: DW disconnected before initialization
+1701290089.387: DW disconnected before initialization
+1701290089.387: dm-summary: elapsed_time_ms=563, am_to_dm_wus=0, dm_to_am_wurs=0
+1701290089.387: dw-summary: dw_id=1, state=inactive, wus_outstanding=0, wus_sent=0, wurs_received=0, active_ms=0, idle_ms=0
+1701290089.387: dw-summary: dw_id=2, state=inactive, wus_outstanding=0, wus_sent=0, wurs_received=0, active_ms=0, idle_ms=0
+1701290089.387: dw-summary: dw_id=3, state=inactive, wus_outstanding=0, wus_sent=0, wurs_received=0, active_ms=0, idle_ms=0
+1701290089.387: dw-summary: dw_id=4, state=inactive, wus_outstanding=0, wus_sent=0, wurs_received=0, active_ms=0, idle_ms=0
+1701290089.387: dw-summary: dw_id=5, state=inactive, wus_outstanding=0, wus_sent=0, wurs_received=0, active_ms=0, idle_ms=0
+1701290089.387: dw-summary: dw_id=6, state=inactive, wus_outstanding=0, wus_sent=0, wurs_received=0, active_ms=0, idle_ms=0
+1701290089.387: dw-summary: dw_id=7, state=inactive, wus_outstanding=0, wus_sent=0, wurs_received=0, active_ms=0, idle_ms=0
+1701290089.387: dw-summary: dw_id=8, state=inactive, wus_outstanding=0, wus_sent=0, wurs_received=0, active_ms=0, idle_ms=0
+1701290089.387: DM exiting with code 0

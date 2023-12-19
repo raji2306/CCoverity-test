@@ -1,0 +1,45 @@
+{
+  "header" : {
+    "format" : "commit preview report",
+    "version" : 2
+  },
+  "analysisInfo" : {
+    "ownerAssignmentRule" : "default_component_owner",
+    "comparisonSnapshotId" : null,
+    "reportTimestamp" : "2023-11-23T16:17:52.650Z",
+    "user" : "admin",
+    "command" : "cov-analyze --dir idir --disable-spotbugs --enable divide_by_zero"
+  },
+  "issueInfo" : [ {
+    "cid" : 229568,
+    "mergeKey" : "7c7816cc3f2f5356013d32300b5641be",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2023-11-23T16:17:52.650Z",
+    "occurrences" : [ {
+      "checker" : "DIVIDE_BY_ZERO",
+      "file" : "/Users/rsures8x/OneDrive - Intel Corporation/Desktop/c/hello/hello.cpp",
+      "function" : "_Z5hellov",
+      "extra" : "y",
+      "mergeWithLowercaseFile" : true,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 7,
+      "mainEventDescription" : "In expression \"x / y\", division by expression \"y\" which may be zero has undefined behavior.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C++"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : { },
+    "ownerLdapServerName" : null
+  } ]
+}

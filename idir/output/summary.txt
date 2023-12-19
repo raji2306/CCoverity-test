@@ -1,0 +1,11 @@
+cov-analyze --dir idir 
+Analysis summary report:
+------------------------
+Files analyzed                 : 10 Total
+    C++                        : 10
+Total LoC input to cov-analyze : 21059
+Functions analyzed             : 6
+Classes/structs analyzed       : 8
+Paths analyzed                 : 8
+Time taken by analysis         : 00:00:06
+Defect occurrences found       : 1 DIVIDE_BY_ZERO

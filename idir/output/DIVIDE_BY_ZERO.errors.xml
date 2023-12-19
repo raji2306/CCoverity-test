@@ -1,0 +1,27 @@
+<error>
+<domain>STATIC_C</domain>
+<lang>C++</lang>
+<checker>DIVIDE_BY_ZERO</checker>
+<type>divide_by_zero</type>
+<subtype>undefined_or_crash</subtype>
+<file>C:/Users/rsures8x/OneDrive - Intel Corporation/Desktop/c/hello/hello.cpp</file>
+<merge_with_lowercase_file>true</merge_with_lowercase_file>
+<function>_Z5hellov</function>
+<score>100</score>
+<ordered>true</ordered>
+<event>
+<tag>assignment</tag>
+<description>{CovLStrv2{{t{Assigning: {0} {1}= {2}.}{{code{y}}}{}{{code{0}}}}}}</description>
+<line>6</line>
+<column>3</column>
+</event>
+<event>
+<main>true</main>
+<tag>divide_by_zero</tag>
+<description>{CovLStrv2{{t{In expression {0}, division by expression {1} which may be zero has undefined behavior.}{{code{x / y}}}{{code{y}}}}}}</description>
+<line>7</line>
+<column>3</column>
+</event>
+<extra>y</extra>
+<subcategory>none</subcategory>
+</error>

@@ -1,6 +1,8 @@
 #include <iostream>
 #include "hello.h"
 
-void hello(){
-	std::cout << "Hello World!\n";
+void hello() {
+  int x = 10;
+  int y = 0;
+  std::cout << x / y << std::endl; // Attempt to divide by zero
 }

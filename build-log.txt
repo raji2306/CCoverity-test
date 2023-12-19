@@ -1,0 +1,10 @@
+2023-11-23T15:05:36.506063Z|cov-build|10768|info|> cov-build 2023.3.4 (build 858be4c112 p-2023.3-push-67)
+2023-11-23T15:05:36.506063Z|cov-build|10768|info|> Coverity Build Capture (64-bit) version 2023.3.4 on Windows 10 Enterprise, 64-bit (build 19045)
+2023-11-23T15:05:36.506063Z|cov-build|10768|info|> Internal version numbers: 858be4c112 p-2023.3-push-67
+2023-11-23T15:05:36.506063Z|cov-build|10768|info|> 
+2023-11-23T15:05:36.506063Z|cov-build|10768|info|> Dumping from hostname : RSURES8X-MOBL2
+2023-11-23T15:05:36.506063Z|cov-build|10768|info|> 
+2023-11-23T15:05:36.506063Z|cov-build|10768|info|> Platform info: Windows 10 Enterprise, 64-bit (build 19045)
+2023-11-23T15:05:36.506063Z|cov-build|10768|info|> 
+2023-11-23T15:05:36.506063Z|cov-build|10768|info|> cov-build command: cov-build --dir . 
+2023-11-23T15:05:36.506063Z|cov-build|10768|info|> cov-build expanded command: cov-build --dir . 

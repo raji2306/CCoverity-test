@@ -1,0 +1,596 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/cmake-3.28.0-rc5-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:1 (PROJECT)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/cmake-3.28.0-rc5-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/cmake-3.28.0-rc5-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/cmake-3.28.0-rc5-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:1 (PROJECT)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/Program Files/Dev-Cpp/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/cmake-3.28.0-rc5-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/cmake-3.28.0-rc5-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/cmake-3.28.0-rc5-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:1 (PROJECT)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files/Dev-Cpp/bin/gcc.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is GNU, found in:
+        C:/Users/rsures8x/OneDrive - Intel Corporation/Desktop/c/hello/CMakeFiles/3.28.0-rc5/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/cmake-3.28.0-rc5-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/cmake-3.28.0-rc5-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/cmake-3.28.0-rc5-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:1 (PROJECT)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Program Files/Dev-Cpp/bin/c++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      c++.exe: Internal error: Aborted (program collect2)
+      Please submit a full bug report.
+      See <URL:http://www.mingw.org/bugs.shtml> for instructions.
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/cmake-3.28.0-rc5-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/cmake-3.28.0-rc5-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/cmake-3.28.0-rc5-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:1 (PROJECT)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Program Files/Dev-Cpp/bin/c++.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is GNU, found in:
+        C:/Users/rsures8x/OneDrive - Intel Corporation/Desktop/c/hello/CMakeFiles/3.28.0-rc5/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/cmake-3.28.0-rc5-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/cmake-3.28.0-rc5-windows-x86_64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:1 (PROJECT)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/rsures8x/OneDrive - Intel Corporation/Desktop/c/hello/CMakeFiles/CMakeScratch/TryCompile-qcx2ih"
+      binary: "C:/Users/rsures8x/OneDrive - Intel Corporation/Desktop/c/hello/CMakeFiles/CMakeScratch/TryCompile-qcx2ih"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/rsures8x/OneDrive - Intel Corporation/Desktop/c/hello/CMakeFiles/CMakeScratch/TryCompile-qcx2ih'
+        
+        Run Build Command(s): C:/PROGRA~1/NINJA-~1/ninja.exe -v cmTC_0c648
+        [1/2] C:\\PROGRA~1\\Dev-Cpp\\bin\\gcc.exe   -v -o CMakeFiles/cmTC_0c648.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/cmake-3.28.0-rc5-windows-x86_64/share/cmake-3.28/Modules/CMakeCCompilerABI.c"
+        Reading specs from C:/PROGRA~1/Dev-Cpp/bin/../lib/gcc/mingw32/3.4.2/specs
+        Configured with: ../gcc/configure --with-gcc --with-gnu-ld --with-gnu-as --host=mingw32 --target=mingw32 --prefix=/mingw --enable-threads --disable-nls --enable-languages=c,c++,f77,ada,objc,java --disable-win32-registry --disable-shared --enable-sjlj-exceptions --enable-libgcj --disable-java-awt --without-x --enable-java-gc=boehm --disable-libgcj-debug --enable-interpreter --enable-hash-synchronization --enable-libstdcxx-debug
+        Thread model: win32
+        gcc version 3.4.2 (mingw-special)
+         C:/PROGRA~1/Dev-Cpp/bin/../libexec/gcc/mingw32/3.4.2/cc1.exe -quiet -v -iprefix C:\\PROGRA~1\\Dev-Cpp\\bin\\../lib/gcc/mingw32/3.4.2/ C:/Program Files/cmake-3.28.0-rc5-windows-x86_64/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -auxbase-strip CMakeFiles/cmTC_0c648.dir/CMakeCCompilerABI.c.obj -version -o C:\\Users\\rsures8x\\AppData\\Local\\Temp/cciOaaaa.s
+        ignoring nonexistent directory "C:/PROGRA~1/Dev-Cpp/bin/../lib/gcc/mingw32/3.4.2/../../../../mingw32/include"
+        ignoring nonexistent directory "/mingw/include"
+        ignoring nonexistent directory "/mingw/include"
+        ignoring nonexistent directory "/mingw/lib/gcc/mingw32/3.4.2/include"
+        ignoring nonexistent directory "/mingw/mingw32/include"
+        ignoring nonexistent directory "/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/PROGRA~1/Dev-Cpp/bin/../lib/gcc/mingw32/3.4.2/../../../../include
+         C:/PROGRA~1/Dev-Cpp/bin/../lib/gcc/mingw32/3.4.2/include
+        End of search list.
+        GNU C version 3.4.2 (mingw-special) (mingw32)
+        	compiled by GNU C version 3.4.2 (mingw-special).
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+         C:/PROGRA~1/Dev-Cpp/bin/../lib/gcc/mingw32/3.4.2/../../../../mingw32/bin/as.exe -o CMakeFiles/cmTC_0c648.dir/CMakeCCompilerABI.c.obj C:\\Users\\rsures8x\\AppData\\Local\\Temp/cciOaaaa.s\x0d
+        [2/2] C:\\windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\Dev-Cpp\\bin\\gcc.exe  -v CMakeFiles/cmTC_0c648.dir/CMakeCCompilerABI.c.obj -o cmTC_0c648.exe -Wl,--out-implib,libcmTC_0c648.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        FAILED: cmTC_0c648.exe 
+        C:\\windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\Dev-Cpp\\bin\\gcc.exe  -v CMakeFiles/cmTC_0c648.dir/CMakeCCompilerABI.c.obj -o cmTC_0c648.exe -Wl,--out-implib,libcmTC_0c648.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        Reading specs from C:/PROGRA~1/Dev-Cpp/bin/../lib/gcc/mingw32/3.4.2/specs
+        Configured with: ../gcc/configure --with-gcc --with-gnu-ld --with-gnu-as --host=mingw32 --target=mingw32 --prefix=/mingw --enable-threads --disable-nls --enable-languages=c,c++,f77,ada,objc,java --disable-win32-registry --disable-shared --enable-sjlj-exceptions --enable-libgcj --disable-java-awt --without-x --enable-java-gc=boehm --disable-libgcj-debug --enable-interpreter --enable-hash-synchronization --enable-libstdcxx-debug
+        Thread model: win32
+        gcc version 3.4.2 (mingw-special)
+         C:/PROGRA~1/Dev-Cpp/bin/../libexec/gcc/mingw32/3.4.2/collect2.exe -Bdynamic -o cmTC_0c648.exe C:/PROGRA~1/Dev-Cpp/bin/../lib/gcc/mingw32/3.4.2/../../../crt2.o C:/PROGRA~1/Dev-Cpp/bin/../lib/gcc/mingw32/3.4.2/crtbegin.o -LC:/PROGRA~1/Dev-Cpp/bin/../lib/gcc/mingw32/3.4.2 -LC:/PROGRA~1/Dev-Cpp/bin/../lib/gcc -LC:/PROGRA~1/Dev-Cpp/bin/../lib/gcc/mingw32/3.4.2/../../../../mingw32/lib -LC:/PROGRA~1/Dev-Cpp/bin/../lib/gcc/mingw32/3.4.2/../../.. CMakeFiles/cmTC_0c648.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_0c648.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -luser32 -lkernel32 -ladvapi32 -lshell32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt C:/PROGRA~1/Dev-Cpp/bin/../lib/gcc/mingw32/3.4.2/crtend.o
+        gcc.exe: Internal error: Aborted (program collect2)
+        Please submit a full bug report.
+        See <URL:http://www.mingw.org/bugs.shtml> for instructions.\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/cmake-3.28.0-rc5-windows-x86_64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:1 (PROJECT)"
+    checks:
+      - "Check for working C compiler: C:/Program Files/Dev-Cpp/bin/gcc.exe"
+    directories:
+      source: "C:/Users/rsures8x/OneDrive - Intel Corporation/Desktop/c/hello/CMakeFiles/CMakeScratch/TryCompile-h0ojl0"
+      binary: "C:/Users/rsures8x/OneDrive - Intel Corporation/Desktop/c/hello/CMakeFiles/CMakeScratch/TryCompile-h0ojl0"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/rsures8x/OneDrive - Intel Corporation/Desktop/c/hello/CMakeFiles/CMakeScratch/TryCompile-h0ojl0'
+        
+        Run Build Command(s): C:/PROGRA~1/NINJA-~1/ninja.exe -v cmTC_024a8
+        [1/2] C:\\PROGRA~1\\Dev-Cpp\\bin\\gcc.exe    -o CMakeFiles/cmTC_024a8.dir/testCCompiler.c.obj -c "C:/Users/rsures8x/OneDrive - Intel Corporation/Desktop/c/hello/CMakeFiles/CMakeScratch/TryCompile-h0ojl0/testCCompiler.c"
+        [2/2] C:\\windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\Dev-Cpp\\bin\\gcc.exe   CMakeFiles/cmTC_024a8.dir/testCCompiler.c.obj -o cmTC_024a8.exe -Wl,--out-implib,libcmTC_024a8.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        FAILED: cmTC_024a8.exe 
+        C:\\windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\Dev-Cpp\\bin\\gcc.exe   CMakeFiles/cmTC_024a8.dir/testCCompiler.c.obj -o cmTC_024a8.exe -Wl,--out-implib,libcmTC_024a8.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        gcc.exe: Internal error: Aborted (program collect2)
+        Please submit a full bug report.
+        See <URL:http://www.mingw.org/bugs.shtml> for instructions.\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/cmake-3.28.0-rc5-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:1 (PROJECT)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/cmake-3.28.0-rc5-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/cmake-3.28.0-rc5-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/cmake-3.28.0-rc5-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:1 (PROJECT)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/Program Files/Dev-Cpp/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/cmake-3.28.0-rc5-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/cmake-3.28.0-rc5-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/cmake-3.28.0-rc5-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:1 (PROJECT)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files/Dev-Cpp/bin/gcc.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is GNU, found in:
+        C:/Users/rsures8x/OneDrive - Intel Corporation/Desktop/c/hello/CMakeFiles/3.28.0-rc5/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/cmake-3.28.0-rc5-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/cmake-3.28.0-rc5-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/cmake-3.28.0-rc5-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:1 (PROJECT)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Program Files/Dev-Cpp/bin/c++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      c++.exe: Internal error: Aborted (program collect2)
+      Please submit a full bug report.
+      See <URL:http://www.mingw.org/bugs.shtml> for instructions.
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/cmake-3.28.0-rc5-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/cmake-3.28.0-rc5-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/cmake-3.28.0-rc5-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:1 (PROJECT)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Program Files/Dev-Cpp/bin/c++.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is GNU, found in:
+        C:/Users/rsures8x/OneDrive - Intel Corporation/Desktop/c/hello/CMakeFiles/3.28.0-rc5/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/cmake-3.28.0-rc5-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/cmake-3.28.0-rc5-windows-x86_64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:1 (PROJECT)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/rsures8x/OneDrive - Intel Corporation/Desktop/c/hello/CMakeFiles/CMakeScratch/TryCompile-s340kw"
+      binary: "C:/Users/rsures8x/OneDrive - Intel Corporation/Desktop/c/hello/CMakeFiles/CMakeScratch/TryCompile-s340kw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/rsures8x/OneDrive - Intel Corporation/Desktop/c/hello/CMakeFiles/CMakeScratch/TryCompile-s340kw'
+        
+        Run Build Command(s): C:/PROGRA~1/NINJA-~1/ninja.exe -v cmTC_213fc
+        [1/2] C:\\PROGRA~1\\Dev-Cpp\\bin\\gcc.exe   -v -o CMakeFiles/cmTC_213fc.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/cmake-3.28.0-rc5-windows-x86_64/share/cmake-3.28/Modules/CMakeCCompilerABI.c"
+        Reading specs from C:/PROGRA~1/Dev-Cpp/bin/../lib/gcc/mingw32/3.4.2/specs
+        Configured with: ../gcc/configure --with-gcc --with-gnu-ld --with-gnu-as --host=mingw32 --target=mingw32 --prefix=/mingw --enable-threads --disable-nls --enable-languages=c,c++,f77,ada,objc,java --disable-win32-registry --disable-shared --enable-sjlj-exceptions --enable-libgcj --disable-java-awt --without-x --enable-java-gc=boehm --disable-libgcj-debug --enable-interpreter --enable-hash-synchronization --enable-libstdcxx-debug
+        Thread model: win32
+        gcc version 3.4.2 (mingw-special)
+         C:/PROGRA~1/Dev-Cpp/bin/../libexec/gcc/mingw32/3.4.2/cc1.exe -quiet -v -iprefix C:\\PROGRA~1\\Dev-Cpp\\bin\\../lib/gcc/mingw32/3.4.2/ C:/Program Files/cmake-3.28.0-rc5-windows-x86_64/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -auxbase-strip CMakeFiles/cmTC_213fc.dir/CMakeCCompilerABI.c.obj -version -o C:\\Users\\rsures8x\\AppData\\Local\\Temp/cc2Faaaa.s
+        ignoring nonexistent directory "C:/PROGRA~1/Dev-Cpp/bin/../lib/gcc/mingw32/3.4.2/../../../../mingw32/include"
+        ignoring nonexistent directory "/mingw/include"
+        ignoring nonexistent directory "/mingw/include"
+        ignoring nonexistent directory "/mingw/lib/gcc/mingw32/3.4.2/include"
+        ignoring nonexistent directory "/mingw/mingw32/include"
+        ignoring nonexistent directory "/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/PROGRA~1/Dev-Cpp/bin/../lib/gcc/mingw32/3.4.2/../../../../include
+         C:/PROGRA~1/Dev-Cpp/bin/../lib/gcc/mingw32/3.4.2/include
+        End of search list.
+        GNU C version 3.4.2 (mingw-special) (mingw32)
+        	compiled by GNU C version 3.4.2 (mingw-special).
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+         C:/PROGRA~1/Dev-Cpp/bin/../lib/gcc/mingw32/3.4.2/../../../../mingw32/bin/as.exe -o CMakeFiles/cmTC_213fc.dir/CMakeCCompilerABI.c.obj C:\\Users\\rsures8x\\AppData\\Local\\Temp/cc2Faaaa.s\x0d
+        [2/2] C:\\windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\Dev-Cpp\\bin\\gcc.exe  -v CMakeFiles/cmTC_213fc.dir/CMakeCCompilerABI.c.obj -o cmTC_213fc.exe -Wl,--out-implib,libcmTC_213fc.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        FAILED: cmTC_213fc.exe 
+        C:\\windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\Dev-Cpp\\bin\\gcc.exe  -v CMakeFiles/cmTC_213fc.dir/CMakeCCompilerABI.c.obj -o cmTC_213fc.exe -Wl,--out-implib,libcmTC_213fc.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        Reading specs from C:/PROGRA~1/Dev-Cpp/bin/../lib/gcc/mingw32/3.4.2/specs
+        Configured with: ../gcc/configure --with-gcc --with-gnu-ld --with-gnu-as --host=mingw32 --target=mingw32 --prefix=/mingw --enable-threads --disable-nls --enable-languages=c,c++,f77,ada,objc,java --disable-win32-registry --disable-shared --enable-sjlj-exceptions --enable-libgcj --disable-java-awt --without-x --enable-java-gc=boehm --disable-libgcj-debug --enable-interpreter --enable-hash-synchronization --enable-libstdcxx-debug
+        Thread model: win32
+        gcc version 3.4.2 (mingw-special)
+         C:/PROGRA~1/Dev-Cpp/bin/../libexec/gcc/mingw32/3.4.2/collect2.exe -Bdynamic -o cmTC_213fc.exe C:/PROGRA~1/Dev-Cpp/bin/../lib/gcc/mingw32/3.4.2/../../../crt2.o C:/PROGRA~1/Dev-Cpp/bin/../lib/gcc/mingw32/3.4.2/crtbegin.o -LC:/PROGRA~1/Dev-Cpp/bin/../lib/gcc/mingw32/3.4.2 -LC:/PROGRA~1/Dev-Cpp/bin/../lib/gcc -LC:/PROGRA~1/Dev-Cpp/bin/../lib/gcc/mingw32/3.4.2/../../../../mingw32/lib -LC:/PROGRA~1/Dev-Cpp/bin/../lib/gcc/mingw32/3.4.2/../../.. CMakeFiles/cmTC_213fc.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_213fc.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -luser32 -lkernel32 -ladvapi32 -lshell32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt C:/PROGRA~1/Dev-Cpp/bin/../lib/gcc/mingw32/3.4.2/crtend.o
+        gcc.exe: Internal error: Aborted (program collect2)
+        Please submit a full bug report.
+        See <URL:http://www.mingw.org/bugs.shtml> for instructions.\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/cmake-3.28.0-rc5-windows-x86_64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:1 (PROJECT)"
+    checks:
+      - "Check for working C compiler: C:/Program Files/Dev-Cpp/bin/gcc.exe"
+    directories:
+      source: "C:/Users/rsures8x/OneDrive - Intel Corporation/Desktop/c/hello/CMakeFiles/CMakeScratch/TryCompile-quh6sb"
+      binary: "C:/Users/rsures8x/OneDrive - Intel Corporation/Desktop/c/hello/CMakeFiles/CMakeScratch/TryCompile-quh6sb"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/rsures8x/OneDrive - Intel Corporation/Desktop/c/hello/CMakeFiles/CMakeScratch/TryCompile-quh6sb'
+        
+        Run Build Command(s): C:/PROGRA~1/NINJA-~1/ninja.exe -v cmTC_40c9c
+        [1/2] C:\\PROGRA~1\\Dev-Cpp\\bin\\gcc.exe    -o CMakeFiles/cmTC_40c9c.dir/testCCompiler.c.obj -c "C:/Users/rsures8x/OneDrive - Intel Corporation/Desktop/c/hello/CMakeFiles/CMakeScratch/TryCompile-quh6sb/testCCompiler.c"
+        [2/2] C:\\windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\Dev-Cpp\\bin\\gcc.exe   CMakeFiles/cmTC_40c9c.dir/testCCompiler.c.obj -o cmTC_40c9c.exe -Wl,--out-implib,libcmTC_40c9c.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        FAILED: cmTC_40c9c.exe 
+        C:\\windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\Dev-Cpp\\bin\\gcc.exe   CMakeFiles/cmTC_40c9c.dir/testCCompiler.c.obj -o cmTC_40c9c.exe -Wl,--out-implib,libcmTC_40c9c.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/cmake-3.28.0-rc5-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/cmake-3.28.0-rc5-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/cmake-3.28.0-rc5-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:1 (PROJECT)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/Program Files/Dev-Cpp/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/cmake-3.28.0-rc5-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/cmake-3.28.0-rc5-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/cmake-3.28.0-rc5-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:1 (PROJECT)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files/Dev-Cpp/bin/gcc.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is GNU, found in:
+        C:/Users/rsures8x/OneDrive - Intel Corporation/Desktop/c/hello/CMakeFiles/3.28.0-rc5/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/cmake-3.28.0-rc5-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/cmake-3.28.0-rc5-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/cmake-3.28.0-rc5-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:1 (PROJECT)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Program Files/Dev-Cpp/bin/c++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      c++.exe: Internal error: Aborted (program collect2)
+      Please submit a full bug report.
+      See <URL:http://www.mingw.org/bugs.shtml> for instructions.
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/cmake-3.28.0-rc5-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/cmake-3.28.0-rc5-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/cmake-3.28.0-rc5-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:1 (PROJECT)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Program Files/Dev-Cpp/bin/c++.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is GNU, found in:
+        C:/Users/rsures8x/OneDrive - Intel Corporation/Desktop/c/hello/CMakeFiles/3.28.0-rc5/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/cmake-3.28.0-rc5-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/cmake-3.28.0-rc5-windows-x86_64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:1 (PROJECT)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/rsures8x/OneDrive - Intel Corporation/Desktop/c/hello/CMakeFiles/CMakeScratch/TryCompile-gv46ed"
+      binary: "C:/Users/rsures8x/OneDrive - Intel Corporation/Desktop/c/hello/CMakeFiles/CMakeScratch/TryCompile-gv46ed"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/rsures8x/OneDrive - Intel Corporation/Desktop/c/hello/CMakeFiles/CMakeScratch/TryCompile-gv46ed'
+        
+        Run Build Command(s): C:/PROGRA~1/NINJA-~1/ninja.exe -v cmTC_c1eda
+        [1/2] C:\\PROGRA~1\\Dev-Cpp\\bin\\gcc.exe   -v -o CMakeFiles/cmTC_c1eda.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/cmake-3.28.0-rc5-windows-x86_64/share/cmake-3.28/Modules/CMakeCCompilerABI.c"
+        Reading specs from C:/PROGRA~1/Dev-Cpp/bin/../lib/gcc/mingw32/3.4.2/specs
+        Configured with: ../gcc/configure --with-gcc --with-gnu-ld --with-gnu-as --host=mingw32 --target=mingw32 --prefix=/mingw --enable-threads --disable-nls --enable-languages=c,c++,f77,ada,objc,java --disable-win32-registry --disable-shared --enable-sjlj-exceptions --enable-libgcj --disable-java-awt --without-x --enable-java-gc=boehm --disable-libgcj-debug --enable-interpreter --enable-hash-synchronization --enable-libstdcxx-debug
+        Thread model: win32
+        gcc version 3.4.2 (mingw-special)
+         C:/PROGRA~1/Dev-Cpp/bin/../libexec/gcc/mingw32/3.4.2/cc1.exe -quiet -v -iprefix C:\\PROGRA~1\\Dev-Cpp\\bin\\../lib/gcc/mingw32/3.4.2/ C:/Program Files/cmake-3.28.0-rc5-windows-x86_64/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -auxbase-strip CMakeFiles/cmTC_c1eda.dir/CMakeCCompilerABI.c.obj -version -o C:\\Users\\rsures8x\\AppData\\Local\\Temp/ccqQeaaa.s
+        ignoring nonexistent directory "C:/PROGRA~1/Dev-Cpp/bin/../lib/gcc/mingw32/3.4.2/../../../../mingw32/include"
+        ignoring nonexistent directory "/mingw/include"
+        ignoring nonexistent directory "/mingw/include"
+        ignoring nonexistent directory "/mingw/lib/gcc/mingw32/3.4.2/include"
+        ignoring nonexistent directory "/mingw/mingw32/include"
+        ignoring nonexistent directory "/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/PROGRA~1/Dev-Cpp/bin/../lib/gcc/mingw32/3.4.2/../../../../include
+         C:/PROGRA~1/Dev-Cpp/bin/../lib/gcc/mingw32/3.4.2/include
+        End of search list.
+        GNU C version 3.4.2 (mingw-special) (mingw32)
+        	compiled by GNU C version 3.4.2 (mingw-special).
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+         C:/PROGRA~1/Dev-Cpp/bin/../lib/gcc/mingw32/3.4.2/../../../../mingw32/bin/as.exe -o CMakeFiles/cmTC_c1eda.dir/CMakeCCompilerABI.c.obj C:\\Users\\rsures8x\\AppData\\Local\\Temp/ccqQeaaa.s\x0d
+        [2/2] C:\\windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\Dev-Cpp\\bin\\gcc.exe  -v CMakeFiles/cmTC_c1eda.dir/CMakeCCompilerABI.c.obj -o cmTC_c1eda.exe -Wl,--out-implib,libcmTC_c1eda.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        FAILED: cmTC_c1eda.exe 
+        C:\\windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\Dev-Cpp\\bin\\gcc.exe  -v CMakeFiles/cmTC_c1eda.dir/CMakeCCompilerABI.c.obj -o cmTC_c1eda.exe -Wl,--out-implib,libcmTC_c1eda.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        Reading specs from C:/PROGRA~1/Dev-Cpp/bin/../lib/gcc/mingw32/3.4.2/specs
+        Configured with: ../gcc/configure --with-gcc --with-gnu-ld --with-gnu-as --host=mingw32 --target=mingw32 --prefix=/mingw --enable-threads --disable-nls --enable-languages=c,c++,f77,ada,objc,java --disable-win32-registry --disable-shared --enable-sjlj-exceptions --enable-libgcj --disable-java-awt --without-x --enable-java-gc=boehm --disable-libgcj-debug --enable-interpreter --enable-hash-synchronization --enable-libstdcxx-debug
+        Thread model: win32
+        gcc version 3.4.2 (mingw-special)
+         C:/PROGRA~1/Dev-Cpp/bin/../libexec/gcc/mingw32/3.4.2/collect2.exe -Bdynamic -o cmTC_c1eda.exe C:/PROGRA~1/Dev-Cpp/bin/../lib/gcc/mingw32/3.4.2/../../../crt2.o C:/PROGRA~1/Dev-Cpp/bin/../lib/gcc/mingw32/3.4.2/crtbegin.o -LC:/PROGRA~1/Dev-Cpp/bin/../lib/gcc/mingw32/3.4.2 -LC:/PROGRA~1/Dev-Cpp/bin/../lib/gcc -LC:/PROGRA~1/Dev-Cpp/bin/../lib/gcc/mingw32/3.4.2/../../../../mingw32/lib -LC:/PROGRA~1/Dev-Cpp/bin/../lib/gcc/mingw32/3.4.2/../../.. CMakeFiles/cmTC_c1eda.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_c1eda.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -luser32 -lkernel32 -ladvapi32 -lshell32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt C:/PROGRA~1/Dev-Cpp/bin/../lib/gcc/mingw32/3.4.2/crtend.o\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/cmake-3.28.0-rc5-windows-x86_64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:1 (PROJECT)"
+    checks:
+      - "Check for working C compiler: C:/Program Files/Dev-Cpp/bin/gcc.exe"
+    directories:
+      source: "C:/Users/rsures8x/OneDrive - Intel Corporation/Desktop/c/hello/CMakeFiles/CMakeScratch/TryCompile-2c69pc"
+      binary: "C:/Users/rsures8x/OneDrive - Intel Corporation/Desktop/c/hello/CMakeFiles/CMakeScratch/TryCompile-2c69pc"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/rsures8x/OneDrive - Intel Corporation/Desktop/c/hello/CMakeFiles/CMakeScratch/TryCompile-2c69pc'
+        
+        Run Build Command(s): C:/PROGRA~1/NINJA-~1/ninja.exe -v cmTC_bac8e
+        [1/2] C:\\PROGRA~1\\Dev-Cpp\\bin\\gcc.exe    -o CMakeFiles/cmTC_bac8e.dir/testCCompiler.c.obj -c "C:/Users/rsures8x/OneDrive - Intel Corporation/Desktop/c/hello/CMakeFiles/CMakeScratch/TryCompile-2c69pc/testCCompiler.c"
+        [2/2] C:\\windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\Dev-Cpp\\bin\\gcc.exe   CMakeFiles/cmTC_bac8e.dir/testCCompiler.c.obj -o cmTC_bac8e.exe -Wl,--out-implib,libcmTC_bac8e.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        FAILED: cmTC_bac8e.exe 
+        C:\\windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\Dev-Cpp\\bin\\gcc.exe   CMakeFiles/cmTC_bac8e.dir/testCCompiler.c.obj -o cmTC_bac8e.exe -Wl,--out-implib,libcmTC_bac8e.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        gcc.exe: Internal error: Aborted (program collect2)
+        Please submit a full bug report.
+        See <URL:http://www.mingw.org/bugs.shtml> for instructions.\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/cmake-3.28.0-rc5-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/cmake-3.28.0-rc5-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/cmake-3.28.0-rc5-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:1 (PROJECT)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/Program Files/Dev-Cpp/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/cmake-3.28.0-rc5-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/cmake-3.28.0-rc5-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/cmake-3.28.0-rc5-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:1 (PROJECT)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files/Dev-Cpp/bin/gcc.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is GNU, found in:
+        C:/Users/rsures8x/OneDrive - Intel Corporation/Desktop/c/hello/CMakeFiles/3.28.0-rc5/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/cmake-3.28.0-rc5-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/cmake-3.28.0-rc5-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/cmake-3.28.0-rc5-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:1 (PROJECT)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Program Files/Dev-Cpp/bin/c++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/cmake-3.28.0-rc5-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/cmake-3.28.0-rc5-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/cmake-3.28.0-rc5-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:1 (PROJECT)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Program Files/Dev-Cpp/bin/c++.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is GNU, found in:
+        C:/Users/rsures8x/OneDrive - Intel Corporation/Desktop/c/hello/CMakeFiles/3.28.0-rc5/CompilerIdCXX/CMakeCXXCompilerId.o
+      

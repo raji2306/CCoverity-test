@@ -1,0 +1,238 @@
+cmdline: command line: cov-analyze --dir idir 
+cmdline: parsed cmdline: [
+cmdline:   { name: "dir", args: [ "idir" ] },
+cmdline:   { name: "config", args: [ "C:\\Program Files\\Coverity\\Coverity Static Analysis\\config\\coverity_config.xml" ] },
+cmdline: ]
+startup: am_pid=16836
+startup: detected platform: Windows 10 Enterprise, 64-bit (build 19045)
+startup: target platform: win64
+startup: Detected 8 logical cpus
+startup: Detected 4 cpu cores
+startup: host name: RSURES8X-MOBL2
+startup: user name: rsures8x
+startup: Analysis version: 2023.3.4 (858be4c112 p-2023.3-push-67)
+startup: temp directory: C:/Users/rsures8x/AppData/Local/Temp/cov-rsures8x/167859590426afdb51111f39ff26190b
+startup: enable_constraint_fpp=0
+startup: current time: 2023-Nov-30 02:04:43
+startup: Detected amount of memory: 16578848kb
+startup: Limiting memory to 14920963kb
+Sigma checker-properties info: Capturing Sigma checker properties...
+Sigma checker-properties info: Command line for sigma C:\Program Files\Coverity\Coverity Static Analysis\sigma\bin\sigma.exe internal-coverity-integration checker-properties --protocol-version 1 C:\Users\rsures8x\AppData\Local\Temp\cov-rsures8x\167859590426afdb51111f39ff26190b\sigma-checker-properties.json
+Sigma checker-properties info: Exit status: code 0
+Sigma checker-properties info: Loaded 3409 checker properties for Sigma.
+wlink: Identifying web applications
+wlink: Linking web-app archive bytecode
+wlink: Web-app linker scanned 0 web-apps (found: 0 classfiles, 0 jars, and 0 other files)
+wlink: Webapps domains found: 0 Android app domains found: 1
+emitdb: callgraph.cpp:2515 11111111
+emitdb: callgraph.cpp:2545 11000011
+emitdb: callgraph.cpp:2565 11000011
+codexm: Initializing data gathered from CodeXM
+directives: ===== User directives:
+directives: === Language: apex
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: cpp
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: cs
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: cuda
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: fortran
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: go
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: java
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: javascript
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: kotlin
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: objc
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: php
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: python2
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: python3
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: ruby
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: scala
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: swift
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: text-files
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: typescript
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: vb
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+rta: Not running RTA because it doesn't apply to current languages
+emitdb: callgraph.cpp:2583 11000000
+dyncg: N/A or no data
+general: Starting analysis
+Sigma stdout: Copyright (c) 2023 Synopsys, Inc.
+Sigma stdout: For documentation and support, visit https://community.synopsys.com/s/document-item?bundleId=sigma-ug
+Sigma stdout: By using this software, the user accepts the terms of Synopsys' end user software license and maintenance agreement found at: https://www.synopsys.com/company/legal/software-integrity.html
+Sigma stdout: 
+Sigma analysis info: Running sigma analysis...
+Sigma analysis info: Using Sigma version: 2023.2.0
+Sigma analysis info: Command line for sigma C:\Program Files\Coverity\Coverity Static Analysis\sigma\bin\sigma.exe --config C:\Users\rsures8x\OneDrive - Intel Corporation\Desktop\c\hello\idir\output\sigma-patch-config.json --config C:\Users\rsures8x\OneDrive - Intel Corporation\Desktop\c\hello\idir\output\sigma-config.json analyze --output C:\Users\rsures8x\OneDrive - Intel Corporation\Desktop\c\hello\idir\output\sigma-output.json C:\Users\rsures8x\OneDrive - Intel Corporation\Desktop\c\hello\idir\output\sigma
+Sigma analysis info: Files dumped: 2
+Sigma analysis info: Exit status: 0
+Sigma stdout: Copyright (c) 2023 Synopsys, Inc.
+Sigma stdout: For documentation and support, visit https://community.synopsys.com/s/document-item?bundleId=sigma-ug
+Sigma stdout: By using this software, the user accepts the terms of Synopsys' end user software license and maintenance agreement found at: https://www.synopsys.com/company/legal/software-integrity.html
+Sigma stdout: 
+Sigma stdout: 2023-11-29 20:34:48 INFO Analysis done in 1 second
+Sigma stdout: 2023-11-29 20:34:48 INFO Found 0 defects
+Sigma stdout: 
+Sigma stdout: Identified
+Sigma stdout: 
+Sigma stdout: │File Type│Occurrences│
+Sigma stdout: ├─────────┼───────────┤
+Sigma stdout: │C++      │          2│
+Sigma stdout: 
+Sigma stdout: 
+Sigma stdout: No issues found after 1 second
+Sigma stdout: 
+dm-access-lib: AM listening for DM at 127.0.0.1:57738
+dm-access-lib: AM starting DM with command line: C:/Program Files/Coverity/Coverity Static Analysis/bin/cov-internal-dm.exe --AM-port 57738 --log-file C:/Users/rsures8x/OneDrive - Intel Corporation/Desktop/c/hello/idir/output/distributor.log -j 8 --AW-timeout 36000 C:\Program Files\Coverity\Coverity Static Analysis\bin\cov-analyze.exe --worker --message-size-limit 104857600
+dm-access-lib: DM started: dm_pid=5156
+dm-access-lib: AM got connection from DM: (local) 127.0.0.1:57738 - 127.0.0.1:57739 (remote)
+makeWUP: ENABLE_ONLY0
+makeWUP: stat0
+makeWUP: stat1
+makeWUP: stat3
+makeWUP: stat2
+makeWUP: stat4
+makeWUP: stat5
+makeWUP: stat6
+makeWUP: gen0
+makeWUP: gen1
+makeWUP: gen3
+makeWUP: gen7
+makeWUP: gen15
+makeWUP: gen31
+makeWUP: gen63
+makeWUP: gen68
+makeWUP: gen67
+makeWUP: gen66
+makeWUP: gen65
+makeWUP: gen62
+makeWUP: gen64
+makeWUP: gen61
+makeWUP: gen60
+makeWUP: gen59
+makeWUP: gen58
+makeWUP: gen57
+makeWUP: gen56
+makeWUP: gen55
+makeWUP: gen54
+makeWUP: gen53
+makeWUP: gen52
+makeWUP: gen51
+makeWUP: gen50
+makeWUP: gen49
+makeWUP: gen48
+makeWUP: gen47
+makeWUP: gen46
+makeWUP: gen45
+makeWUP: gen44
+makeWUP: gen43
+makeWUP: gen42
+makeWUP: gen41
+makeWUP: gen40
+makeWUP: gen39
+makeWUP: gen38
+makeWUP: gen37
+makeWUP: gen36
+makeWUP: gen35
+makeWUP: gen34
+makeWUP: gen33
+makeWUP: gen30
+makeWUP: gen32
+makeWUP: gen29
+makeWUP: gen28
+makeWUP: gen27
+makeWUP: gen26
+makeWUP: gen25
+makeWUP: gen24
+makeWUP: gen23
+makeWUP: gen22
+makeWUP: gen21
+makeWUP: gen20
+makeWUP: gen19
+makeWUP: gen18
+makeWUP: gen17
+makeWUP: gen14
+makeWUP: gen16
+makeWUP: gen13
+makeWUP: gen12
+makeWUP: gen11
+makeWUP: gen10
+makeWUP: gen9
+makeWUP: gen6
+makeWUP: gen8
+makeWUP: gen5
+makeWUP: gen2
+makeWUP: gen4
+makeWUP: gen69
+makeWUP: gen71
+makeWUP: gen72
+makeWUP: gen73
+makeWUP: gen70
+makeWUP: gen74
+makeWUP: gen75
+makeWUP: gen76
+makeWUP: PER_TU0
+makeWUP: PER_TU1
+makeWUP: PER_TU2
+makeWUP: PER_TU3
+makeWUP: fnsaftertus0
+makeWUP: fnsaftertus1
+makeWUP: fnsaftertus3
+makeWUP: fnsaftertus2
+makeWUP: fnsaftertus5
+makeWUP: fnsaftertus4
+makeWUP: fnsaftertus6
+summary: Analysis summary report:
+summary: ------------------------
+summary: Files analyzed                 : 10 Total
+summary:     C++                        : 10
+summary: Total LoC input to cov-analyze : 21059
+summary: Functions analyzed             : 6
+summary: Classes/structs analyzed       : 8
+summary: Paths analyzed                 : 8
+summary: Time taken by analysis         : 00:00:06
+summary: Defect occurrences found       : 1 DIVIDE_BY_ZERO
+summary: TU Language    Capture    TU Count
+summary: -----------    -------    --------
+summary: C++            Build         10
+summary: Number of functions: 75
+summary: out_of_memory count: 0
+summary: paths_exceeded count: 0
+summary: recoverable failures: 0
+summary: all-wu-time-milliseconds: 0
+mem: AM peak mem bytes: 203862016
+assert: suppressed asserts: workers=0, master=0
+failures: recoverable failures: workers=0, master=0

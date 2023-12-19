@@ -1,0 +1,10 @@
+Translation unit:
+1 -> C:/Users/rsures8x/OneDrive - Intel Corporation/Desktop/c/hello/hello.cpp
+cov-emit invocation time (seconds): 0
+cov-translate invocation time (seconds): 1
+cov-build invocation time (seconds): 3
+Translation unit:
+2 -> C:/Users/rsures8x/OneDrive - Intel Corporation/Desktop/c/hello/main.cpp
+cov-emit invocation time (seconds): 0
+cov-translate invocation time (seconds): 1
+cov-build invocation time (seconds): 3

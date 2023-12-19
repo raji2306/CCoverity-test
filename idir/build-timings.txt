@@ -1,0 +1,34 @@
+# Version: 858be4c112 p-2023.3-push-67
+# Command Line: cov-build --dir idir gcc -c hello.cpp main.cpp
+timer                                  ms      calls
+----------------------------------------------------
+cov-build                            2563          1
+  create_or_open emit DB                0          1
+    open emit DB                        0          1
+  add_string_to_table                   0         68
+  addEmitFileName                       0          1
+    addEmitFileName                     0          1
+      addEmitFileName                   0          1
+        addEmitFileName                 0          1
+          addEmitFileName               0          1
+            addEmitFileName             0          1
+              addEmitFileName           0          1
+  Prepare capture                       0          1
+  parse_xml_config_file                31          1
+  Running build command              1437          1
+  SecurityDA                          391          1
+  TUInfo::getPrimarySFRow               0          2
+  (left over)                         704
+
+activity                               ms      calls
+----------------------------------------------------
+cov-build                            2563          1
+parse_xml_config_file                  31          1
+create_or_open emit DB                  0          1
+open emit DB                            0          1
+add_string_to_table                     0         68
+addEmitFileName                         0          7
+Prepare capture                         0          1
+Running build command                1437          1
+SecurityDA                            391          1
+TUInfo::getPrimarySFRow                 0          2

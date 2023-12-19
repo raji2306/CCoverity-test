@@ -1,0 +1,3 @@
+[LOG] Command line: C:/Program Files/Coverity/Coverity Static Analysis/bin/cov-blame.exe --dir C:/Users/rsures8x/OneDrive - Intel Corporation/Desktop/c/hello/idir --preview-report C:/Users/rsures8x/OneDrive - Intel Corporation/Desktop/c/hello/idir/output/preview-report.json --owner-assignment-rules default_component_owner --quiet --outputdir C:/Users/rsures8x/OneDrive - Intel Corporation/Desktop/c/hello/idir/output
+[INFO] Computing likely owner for 229568 [7c7816cc3f2f5356013d32300b5641be]:
+[INFO] 	default_component_owner: none

@@ -1,0 +1,4 @@
+C:/Users/rsures8x/OneDrive - Intel Corporation/Desktop/c/hello/CMakeFiles/hello.dir
+C:/Users/rsures8x/OneDrive - Intel Corporation/Desktop/c/hello/CMakeFiles/greet.dir
+C:/Users/rsures8x/OneDrive - Intel Corporation/Desktop/c/hello/CMakeFiles/edit_cache.dir
+C:/Users/rsures8x/OneDrive - Intel Corporation/Desktop/c/hello/CMakeFiles/rebuild_cache.dir

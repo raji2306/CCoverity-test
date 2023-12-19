@@ -1,0 +1,55 @@
+Getting compiler identification output with: c:\program files\dev-cpp\bin\g++.exe --version C:\Users\rsures8x\AppData\Local\Temp\cov-rsures8x\f9ecfa2d9ffdcd4c93f5ef8aee36e105\cov-rsures8x\7892e243fd8a66fdf250d53ea88273ed\test.c
+**** BEGIN FILE source file: C:/Users/rsures8x/AppData/Local/Temp/cov-rsures8x/f9ecfa2d9ffdcd4c93f5ef8aee36e105/cov-rsures8x/7892e243fd8a66fdf250d53ea88273ed/test.c
+int main() {} 
+
+**** END source file ***
+pipe_command: c:\program files\dev-cpp\bin\g++.exe --version C:\Users\rsures8x\AppData\Local\Temp\cov-rsures8x\f9ecfa2d9ffdcd4c93f5ef8aee36e105\cov-rsures8x\7892e243fd8a66fdf250d53ea88273ed\test.c 
+pipe_commands starting: c:\program files\dev-cpp\bin\g++.exe --version C:\Users\rsures8x\AppData\Local\Temp\cov-rsures8x\f9ecfa2d9ffdcd4c93f5ef8aee36e105\cov-rsures8x\7892e243fd8a66fdf250d53ea88273ed\test.c 
+**** BEGIN FILE output: C:/Users/rsures8x/AppData/Local/Temp/cov-rsures8x/f9ecfa2d9ffdcd4c93f5ef8aee36e105/cov-rsures8x/7892e243fd8a66fdf250d53ea88273ed/test.output
+
+**** END FILE output ***
+**** BEGIN FILE error: 
+
+**** END FILE error ***
+Compiler identification command failed: c:\program files\dev-cpp\bin\g++.exe --version C:\Users\rsures8x\AppData\Local\Temp\cov-rsures8x\f9ecfa2d9ffdcd4c93f5ef8aee36e105\cov-rsures8x\7892e243fd8a66fdf250d53ea88273ed\test.c
+**** Compiler identification output begin ****
+
+**** Compiler identification output end ****
+**** BEGIN PROBE run_test_sanity ****
+[STATUS] g++cc-config-1: Running sanity tests on native compiler
+**** BEGIN FILE source file: C:/Users/rsures8x/AppData/Local/Temp/cov-rsures8x/f9ecfa2d9ffdcd4c93f5ef8aee36e105/cov-rsures8x/7892e243fd8a66fdf250d53ea88273ed/simple.c
+int x;
+
+**** END FILE source file ***
+pipe_command: c:\program files\dev-cpp\bin\g++.exe -xc -c C:\Users\rsures8x\AppData\Local\Temp\cov-rsures8x\f9ecfa2d9ffdcd4c93f5ef8aee36e105\cov-rsures8x\7892e243fd8a66fdf250d53ea88273ed\simple.c 
+pipe_commands starting: c:\program files\dev-cpp\bin\g++.exe -xc -c C:\Users\rsures8x\AppData\Local\Temp\cov-rsures8x\f9ecfa2d9ffdcd4c93f5ef8aee36e105\cov-rsures8x\7892e243fd8a66fdf250d53ea88273ed\simple.c 
+**** BEGIN FILE stdout: 
+
+**** END FILE stdout ***
+**** BEGIN FILE stderr: 
+
+**** END FILE stderr ***
+Test failed
+**** END PROBE run_test_sanity ****
+Failed to find header C:/Program Files/Coverity/Coverity Static Analysis/config/templates/gnu/cc.h
+Failed to find header C:/Program Files/Coverity/Coverity Static Analysis/config/templates/gnu/cc.h
+A default config has been generated.[STATUS] g++cc-config-1: Running config probes
+**** BEGIN PROBE run_linker_config_probe ****
+Running command "c:\program files\dev-cpp\bin\g++.exe -print-search-dirs".
+pipe_command: c:\program files\dev-cpp\bin\g++.exe -print-search-dirs 
+pipe_commands starting: c:\program files\dev-cpp\bin\g++.exe -print-search-dirs 
+Failed command "c:\program files\dev-cpp\bin\g++.exe -print-search-dirs" : error: Access violation (exit code 0xc0000005).
+**** BEGIN OUTPUT run_linker_config_probe ****
+**** END OUTPUT run_linker_config_probe ****
+**** END PROBE run_linker_config_probe ****
+**** BEGIN PROBE run_linker_config_probe ****
+**** BEGIN FILE source file: C:/Users/rsures8x/AppData/Local/Temp/cov-rsures8x/f9ecfa2d9ffdcd4c93f5ef8aee36e105/cov-rsures8x/7892e243fd8a66fdf250d53ea88273ed/test.c
+int main() {}
+**** END FILE source file ***
+Running command "c:\program files\dev-cpp\bin\g++.exe -Wl,--trace test.c".
+pipe_command: c:\program files\dev-cpp\bin\g++.exe -Wl,--trace test.c 
+pipe_commands starting: c:\program files\dev-cpp\bin\g++.exe -Wl,--trace test.c 
+Failed command "c:\program files\dev-cpp\bin\g++.exe -Wl,--trace test.c" : error: Access violation (exit code 0xc0000005).
+**** BEGIN OUTPUT run_linker_config_probe ****
+**** END OUTPUT run_linker_config_probe ****
+**** END PROBE run_linker_config_probe ****

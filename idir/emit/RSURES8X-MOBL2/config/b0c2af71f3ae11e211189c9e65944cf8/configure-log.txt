@@ -1,0 +1,10 @@
+Native Compiler invocation: c:/program files/dev-cpp/bin/gcc.exe -Wl,--help
+Working directory: C:\Users\rsures8x\OneDrive - Intel Corporation\Desktop\c\hello
+Comptype: gcc
+* Configuring c:\program files\dev-cpp\bin\gcc as a C compiler
+* Configuring c:\program files\dev-cpp\bin\gcc as a C++ compiler
+* Configuring c:\program files\dev-cpp\bin\gcc as a C compiler
+* Configuring c:\program files\dev-cpp\bin\g++ as a C++ compiler
+* Configuring c:\program files\dev-cpp\bin\g++ as a C compiler
+* Configuring c:\program files\dev-cpp\bin\ld as a C++ linker
+* Configuring c:\program files\dev-cpp\bin\ar as a C++ linker

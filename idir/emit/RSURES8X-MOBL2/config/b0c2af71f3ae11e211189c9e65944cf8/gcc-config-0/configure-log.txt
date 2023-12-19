@@ -1,0 +1,74 @@
+Getting compiler identification output with: c:\program files\dev-cpp\bin\gcc.exe --version C:\Users\rsures8x\AppData\Local\Temp\cov-rsures8x\a8358680960ffe09ae3ac9f9d27d8852\cov-rsures8x\2f6b682d50ced5d8a27d1968a9f64c83\test.c
+**** BEGIN FILE source file: C:/Users/rsures8x/AppData/Local/Temp/cov-rsures8x/a8358680960ffe09ae3ac9f9d27d8852/cov-rsures8x/2f6b682d50ced5d8a27d1968a9f64c83/test.c
+int main() {} 
+
+**** END source file ***
+pipe_command: c:\program files\dev-cpp\bin\gcc.exe --version C:\Users\rsures8x\AppData\Local\Temp\cov-rsures8x\a8358680960ffe09ae3ac9f9d27d8852\cov-rsures8x\2f6b682d50ced5d8a27d1968a9f64c83\test.c 
+pipe_commands starting: c:\program files\dev-cpp\bin\gcc.exe --version C:\Users\rsures8x\AppData\Local\Temp\cov-rsures8x\a8358680960ffe09ae3ac9f9d27d8852\cov-rsures8x\2f6b682d50ced5d8a27d1968a9f64c83\test.c 
+**** BEGIN FILE output: C:/Users/rsures8x/AppData/Local/Temp/cov-rsures8x/a8358680960ffe09ae3ac9f9d27d8852/cov-rsures8x/2f6b682d50ced5d8a27d1968a9f64c83/test.output
+gcc.exe (GCC) 3.4.2 (mingw-special)
+Copyright (C) 2004 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+
+**** END FILE output ***
+**** BEGIN FILE error: 
+
+**** END FILE error ***
+**** Compiler identification output begin ****
+gcc.exe (GCC) 3.4.2 (mingw-special)
+Copyright (C) 2004 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+
+**** Compiler identification output end ****
+**** BEGIN PROBE run_test_sanity ****
+[STATUS] gcc-config-0: Running sanity tests on native compiler
+**** BEGIN FILE source file: C:/Users/rsures8x/AppData/Local/Temp/cov-rsures8x/a8358680960ffe09ae3ac9f9d27d8852/cov-rsures8x/2f6b682d50ced5d8a27d1968a9f64c83/simple.c
+int x;
+
+**** END FILE source file ***
+pipe_command: c:\program files\dev-cpp\bin\gcc.exe -c C:\Users\rsures8x\AppData\Local\Temp\cov-rsures8x\a8358680960ffe09ae3ac9f9d27d8852\cov-rsures8x\2f6b682d50ced5d8a27d1968a9f64c83\simple.c 
+pipe_commands starting: c:\program files\dev-cpp\bin\gcc.exe -c C:\Users\rsures8x\AppData\Local\Temp\cov-rsures8x\a8358680960ffe09ae3ac9f9d27d8852\cov-rsures8x\2f6b682d50ced5d8a27d1968a9f64c83\simple.c 
+**** BEGIN FILE stdout: 
+
+**** END FILE stdout ***
+**** BEGIN FILE stderr: 
+
+**** END FILE stderr ***
+Test succeded
+**** BEGIN FILE source file: C:/Users/rsures8x/AppData/Local/Temp/cov-rsures8x/a8358680960ffe09ae3ac9f9d27d8852/cov-rsures8x/2f6b682d50ced5d8a27d1968a9f64c83/does_not_compile.c
+#x
+int a b c d;
+
+**** END FILE source file ***
+pipe_command: c:\program files\dev-cpp\bin\gcc.exe -c C:\Users\rsures8x\AppData\Local\Temp\cov-rsures8x\a8358680960ffe09ae3ac9f9d27d8852\cov-rsures8x\2f6b682d50ced5d8a27d1968a9f64c83\does_not_compile.c 
+pipe_commands starting: c:\program files\dev-cpp\bin\gcc.exe -c C:\Users\rsures8x\AppData\Local\Temp\cov-rsures8x\a8358680960ffe09ae3ac9f9d27d8852\cov-rsures8x\2f6b682d50ced5d8a27d1968a9f64c83\does_not_compile.c 
+**** BEGIN FILE stdout: 
+
+**** END FILE stdout ***
+**** BEGIN FILE stderr: 
+C:\Users\rsures8x\AppData\Local\Temp\cov-rsures8x\a8358680960ffe09ae3ac9f9d27d8852\cov-rsures8x\2f6b682d50ced5d8a27d1968a9f64c83\does_not_compile.c:1:2: invalid preprocessing directive #x
+C:\Users\rsures8x\AppData\Local\Temp\cov-rsures8x\a8358680960ffe09ae3ac9f9d27d8852\cov-rsures8x\2f6b682d50ced5d8a27d1968a9f64c83\does_not_compile.c:2: error: syntax error before "b"
+C:\Users\rsures8x\AppData\Local\Temp\cov-rsures8x\a8358680960ffe09ae3ac9f9d27d8852\cov-rsures8x\2f6b682d50ced5d8a27d1968a9f64c83\does_not_compile.c:2: warning: data definition has no type or storage class
+
+**** END FILE stderr ***
+Test failed
+**** BEGIN FILE source file: C:/Users/rsures8x/AppData/Local/Temp/cov-rsures8x/a8358680960ffe09ae3ac9f9d27d8852/cov-rsures8x/2f6b682d50ced5d8a27d1968a9f64c83/stddef.c
+#include <stddef.h>
+struct mystruct {
+  int field1;
+  int field2;
+} var;
+size_t sz = sizeof(struct mystruct);
+ptrdiff_t pd;
+void func() {
+  pd = &var.field1 - &var.field2;
+}
+
+
+**** END FILE source file ***
+pipe_command: c:\program files\dev-cpp\bin\gcc.exe -c C:\Users\rsures8x\AppData\Local\Temp\cov-rsures8x\a8358680960ffe09ae3ac9f9d27d8852\cov-rsures8x\2f6b682d50ced5d8a27d1968a9f64c83\stddef.c 
+pipe_commands starting: c:\program files\dev-cpp\bin\gcc.exe -c C:\Users\rsures8x\AppData\Local\Temp\cov-rsures8x\a8358680960ffe09ae3ac9f9d27d8852\cov-rsures8x\2f6b682d50ced5d8a27d1968a9f64c83\stddef.c 
